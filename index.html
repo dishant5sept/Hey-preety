@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello Preety 💖</title>
+  <title>Sorry, I Miss You</title>
   <style>
     /* General Styles */
     body {
@@ -18,20 +18,24 @@
     h1 {
       color: #ff4d88;
       text-align: center;
-      font-size: 50px;
-      margin-top: 100px;
+      font-size: 5vw;  /* Responsive font size */
+      margin-top: 10vh;
       font-weight: bold;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     }
 
     p {
       color: #4d4d4d;
-      font-size: 22px;
+      font-size: 4vw;  /* Responsive font size */
       text-align: center;
       margin-top: 20px;
       width: 70%;
       margin-left: auto;
       margin-right: auto;
+      background-color: rgba(255, 255, 255, 0.7);  /* Light transparent background */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
     }
 
     .heart {
@@ -78,9 +82,10 @@
 
     .message-box {
       background-color: rgba(255, 255, 255, 0.8);
-      padding: 30px;
+      padding: 5vw;
       border-radius: 15px;
-      width: 50%;
+      width: 80%;
+      max-width: 600px;
       margin: 0 auto;
       text-align: center;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -88,13 +93,30 @@
 
     .message-box h2 {
       color: #ff4d88;
-      font-size: 30px;
+      font-size: 5vw;
       margin-bottom: 20px;
     }
 
     .message-box p {
-      font-size: 20px;
+      font-size: 4vw;
       color: #555;
+    }
+
+    /* Responsive adjustments for mobile */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 8vw;  /* Larger title for small screens */
+        margin-top: 15vh;
+      }
+
+      .message-box {
+        width: 90%;  /* Full width for mobile */
+        padding: 8vw;
+      }
+
+      p {
+        font-size: 5vw;  /* Larger text for smaller screens */
+      }
     }
 
   </style>
@@ -103,18 +125,10 @@
 
   <div class="container">
     <div class="message-box">
-      <h2>Hey Preety💖</h2>
-      <p>We met just two days ago, and honestly, I never imagined it would make me think about you this much. I find myself checking WhatsApp constantly to see if you’ve messaged me. And when you leave me on read, it gives me this little urge to say something that might spark a cute conversation between us. Last night, I was so tired, but still, I really wanted to talk to you. I don’t even know where I found the courage to say something that I probably shouldn’t have said.
-
-        While looking at your profile picture, my phone fell on my face twice, waking me up both times. It made me stay up for another five minutes, just looking at your picture. This morning, I woke up to find my phone under the blanket, turned off, and I wondered if I had left it open the whole night.
-        
-        I’m truly sorry for what I said. The timing and the way I said it made it sound so wrong. We're still strangers, just getting to know each other, and I said something without even saying it face to face. It didn’t come across as a compliment, and for that, I apologize.
-        
-        I also want you to know that I think you’re a really strong person. You face everything with such boldness, and when you said you don’t have the right to shout at anyone, that didn’t sit right with me. It might seem like I’m just buttering you up, but I promise that’s not the case. I just wanted to make you smile. When you asked, "Is something wrong with you?" I felt like maybe it made you smile, even just a little.
-        
-        I’ve only known you for two days, but I already look forward to talking to you. There’s something truly special about you, and I can’t wait to get to know you better.
-        
-        </p>
+      <h2>I'm Sorry... 💖</h2>
+      <p>
+        I regret my actions, and I can't stop thinking about how I hurt you. Every day, I’m waiting for the moment when I can see you in person and make it right. Please forgive me, and know that you're always on my mind. I miss you so much.
+      </p>
     </div>
 
     <!-- Floating hearts will be created here -->
